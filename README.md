@@ -55,6 +55,10 @@ python scripts/fetch_bilibili_hot.py
 
 ## 示例输出
 
+### 实际输出截图
+
+![B站热门视频排行榜示例](assets/example-output.png)
+
 ### Markdown表格示例
 
 | 排名 | 标题 | 链接 | 播放量 | UP主 | 简介 |
@@ -84,6 +88,8 @@ bilibili-hot-videos/
 ├── README.md                          # 项目说明文档
 ├── SKILL.md                           # Skill 使用指南
 ├── requirements.txt                   # Python 依赖
+├── assets/
+│   └── example-output.png            # 示例输出截图
 └── scripts/
     └── fetch_bilibili_hot.py         # 抓取脚本
 ```
